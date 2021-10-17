@@ -2,11 +2,11 @@ package domain_test
 
 import (
 	"encoder/domain"
-	"fmt"
-	uuid "github.com/satori/go.uuid"
-	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
+
+	uuid "github.com/satori/go.uuid"
+	"github.com/stretchr/testify/require"
 )
 
 func TestValidateIfVideoIsEmpty(t *testing.T) {
