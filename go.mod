@@ -7,6 +7,8 @@ require (
 	github.com/satori/go.uuid v1.2.0
 )
 
+require github.com/streadway/amqp v1.0.0
+
 require (
 	cloud.google.com/go v0.97.0 // indirect
 	cloud.google.com/go/storage v1.18.2
